@@ -1,0 +1,142 @@
+.addMeme {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.addMemeContainer {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addMemeTitle {
+  margin: 0 0 24px 0;
+  color: #333;
+  text-align: center;
+}
+
+.addMemeForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formLabel {
+  font-weight: 600;
+  color: #555;
+}
+
+.formInput {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.formInputError {
+  border-color: #dc3545;
+}
+
+.errorMessage {
+  color: #dc3545;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.checkboxGroup {
+  flex-direction: row !important;
+  align-items: center;
+  gap: 12px !important;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #555;
+}
+
+.checkboxInput {
+  margin: 0;
+  transform: scale(1.2);
+}
+
+.checkmark {
+  color: #ffc107;
+  font-size: 1.2em;
+}
+
+.imagePreview {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+}
+
+.imagePreviewText {
+  margin: 0 0 12px 0;
+  font-weight: 600;
+  color: #555;
+}
+
+.imagePreviewImg {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formActions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.submitBtn,
+.cancelBtn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.submitBtn {
+  background: #28a745;
+  color: white;
+}
+
+.submitBtn:hover {
+  background: #218838;
+  transform: translateY(-1px);
+}
+
+.cancelBtn {
+  background: #6c757d;
+  color: white;
+}
+
+.cancelBtn:hover {
+  background: #545b62;
+  transform: translateY(-1px);
+}
